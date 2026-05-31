@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('assets/fonts/Nunito-Regular.ttf') format('truetype');
+}
+
+body
+{
+    background-image: url('../assets/images/planks-background.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.frame
+{
+    position: absolute;
+
+    padding: 12px;
+
+    background: #7a4d24;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+
+.frame img
+{
+    display: block;
+
+    max-width: 30vw;
+    max-height: 30vh;
+
+    width: auto;
+    height: auto;
+
+    border: 10px solid #e8d7b8;
+}
+
+.frame1
+{
+    transform: translate(1vw, 2vh);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 1);
+}
+
+.frame2
+{
+    transform: translate(35vw, 15vh);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 1);
+}
+
+.frame3
+{
+    transform: translate(55vw, 55vh);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 1);
+}
+
+.frame4
+{
+    transform: translate(6vw, 60vh);
+    box-shadow: 0px 15px 60px rgba(0, 0, 0, 1);
+}
+
+.div-back
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 1vw;
+    margin-right: 1.6vw;
+    width: 6vw;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-back-icon
+{
+    width: 3.7vw;
+    height: 3vh;
+    background-color: rgb(19, 19, 19);
+    border-radius: 5px;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.8);
+}
+
+.div-back-icon img
+{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(82deg) brightness(105%) contrast(105%);
+    width: 63%;
+    height: 63%;
+    margin-top: 0.30vw;
+    margin-left: 0.6vw;
+    transform: scaleY(-1);
+}
+
+.div-back label
+{
+    margin-left: 5px;
+    font-size: 1.5vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px white;
+}

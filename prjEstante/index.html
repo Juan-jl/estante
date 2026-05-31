@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <script src="webOSTVjs-1.2.13/webOSTV.js"></script>
+  </head>
+  <body>
+
+    <div id="app-root">Carregando...</div>
+
+    <script src="js/configs.js"></script>
+    <script src="js/screensaver-blocker.js"></script>
+    <script src="controllers/app-controller.js"></script>
+    <script src="controllers/home-controller.js"></script>
+    <script src="controllers/show-controller.js"></script>
+    <script src="controllers/settings-controller.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        AppController.init();
+      });
+    </script>
+
+  </body>
+</html>

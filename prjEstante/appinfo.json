@@ -1,0 +1,10 @@
+{
+  "id": "com.juanlucascardoso.estante",
+  "version": "0.1.0",
+  "vendor": "Juan Lucas Cardoso",
+  "type": "web",
+  "main": "index.html",
+  "title": "Estante",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png"
+}

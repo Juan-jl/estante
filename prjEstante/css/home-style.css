@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('assets/fonts/Nunito-Regular.ttf') format('truetype');
+}
+
+body
+{
+  margin: 0;
+}
+
+.container
+{
+  position: relative;
+  width: 100vw;
+  height: 56.25vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.bg-image
+{
+  width: 100%;
+  height: 100%;
+}
+
+.btn-play
+{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 51.5%;
+  left: 34.7%;
+  width: 10vw;
+  height: 22vh;
+  background: none;
+  border: none;
+}
+
+.img-btn-play
+{
+  width: 50%;
+  height: 50%;
+  margin-top: 1vw;
+}
+
+.lbl-btn-play
+{
+  font-size: 2.5vw;
+  margin-top: 0.2vw;
+  font-family: 'Nunito', sans-serif;
+}
+
+.btn-play:focus .img-btn-play
+{
+  filter: invert(47%) sepia(70%) saturate(1694%) hue-rotate(110deg) brightness(87%) contrast(104%);
+  width: 70%;
+  height: 70%;
+  margin-top: -0.4vw;
+}
+
+.btn-play:focus .lbl-btn-play
+{
+  color: rgb(106, 172, 0);
+  font-size: 3vw;
+  margin-top: -1vw;
+}
+
+.btn-settings
+{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 51.5%;
+  left: 52%;
+  width: 10vw;
+  height: 22vh;
+  background: none;
+  border: none;
+}
+
+.img-btn-settings
+{
+  width: 40%;
+  height: 40%;
+  margin-top: 2vw;
+}
+
+.lbl-btn-settings
+{
+  font-size: 2.5vw;
+  margin-top: 0.6vw;
+  font-family: 'Nunito', sans-serif;
+}
+
+.btn-settings:focus .img-btn-settings
+{
+  filter: invert(47%) sepia(70%) saturate(1694%) hue-rotate(110deg) brightness(87%) contrast(104%);
+  width: 50%;
+  height: 50%;
+  margin-top: 1vw;
+}
+
+.btn-settings:focus .lbl-btn-settings
+{
+  color: rgb(106, 172, 0);
+  font-size: 2.8vw;
+}
+
+/*Animations*/
+
+.btn-play .lbl-btn-play, .btn-settings .lbl-btn-settings
+{
+  transition: font-size 0.2s ease; /* animação suave */
+}
