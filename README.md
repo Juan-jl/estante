@@ -35,6 +35,18 @@ Por uma limitação do WebOS, não é possível acessar arquivos externos como u
 
 Partes que envolvem integração com APIs específicas do WebOS foram desenvolvidas com auxílio de IA. A documentação da plataforma é escassa e a comunidade de desenvolvedores é pequena, o que torna referências práticas difíceis de encontrar. O uso de IA foi uma escolha técnica para contornar essa limitação, restrita aos pontos onde a falta de material tornaria o desenvolvimento inviável.
 
+
+## Capturas de tela
+
+HOME
+![Home](screenshots/screenshot1.png)
+
+SHOW
+![Show](screenshots/screenshot2.png)
+
+SETTINGS
+![Settings](screenshots/screenshot3.png)
+
 ## Desenvolvido por
 
 Juan Lucas Cardoso — 05/2026  
